@@ -138,8 +138,8 @@ Slug,Title,Date,Cover,Short Description,Meta Description,Author Name,Reviewer Na
 
 - **Slug**: URL-friendly version (lowercase, hyphens, no spaces)
 - **Title**: SEO-optimized with primary keyword
-- **Date**: ISO format (2025-MM-DDTHH:mm:ss.000Z)
-- **Cover**: Placeholder URL or specific image path
+- **Date**: ISO format (2025-MM-DDTHH:mm:ss.000Z) - e.g., 2025-06-30T00:00:00.000Z
+- **Cover**: REAL screenshot URL from actual website/tool being discussed (NEVER use placeholder URLs)
 - **Short Description**: 2-3 sentences, engaging summary
 - **Meta Description**: 140-160 characters, includes primary keyword
 - **Author Name**: artem-vysotsky (hyphenated format)
@@ -154,8 +154,8 @@ Create each article as `articles/drafts/[slug].md` with this structure:
 ---
 slug: article-slug-here
 title: "SEO-Optimized Title with Primary Keyword"
-date: 2025-MM-DD
-cover: https://placeholder-url-or-path
+date: 2025-MM-DDTHH:mm:ss.000Z
+cover: https://actual-screenshot-url-from-real-website.com/image.png
 shortDescription: "Engaging 2-3 sentence summary that hooks readers and includes benefit."
 metaDescription: "140-160 character meta description with primary keyword and clear value proposition."
 authorName: artem-vysotsky
@@ -246,7 +246,12 @@ contentFormat: "Best Of" | "Alternative" | "Guide" | "Comparison"
 
 ### Image Requirements
 
-- Add relevant alt text for every image placeholder
+- **Cover Images**: MUST be actual screenshots from the tools/websites being discussed
+  - Find and use real screenshots from official websites, app stores, or demo videos
+  - Use web search to locate authentic product screenshots
+  - NEVER use placeholder URLs like "https://example.com/image.png"
+  - Ensure images show the actual interface or product being reviewed
+- Add relevant alt text for every image placeholder in content
 - Alt text: maximum 4 words
 - Place image placeholders strategically after major sections
 
@@ -266,6 +271,8 @@ contentFormat: "Best Of" | "Alternative" | "Guide" | "Comparison"
 
 - **HTML Output**: Content field must use proper HTML tags
 - **Escape Characters**: Handle quotes, commas, line breaks properly
+- **Date Format**: Must be ISO format with timezone (2025-MM-DDTHH:mm:ss.000Z)
+- **Cover Images**: Use actual screenshots from real websites/tools, not placeholders
 - **Image Placeholders**: Use descriptive alt text (max 4 words)
 - **Internal Links**: Use relative paths for site content
 - **External Links**: High-authority sources only
