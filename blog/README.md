@@ -2,7 +2,7 @@
 
 This document explains how to use the blog article system that outputs to CSV format for marketing automation.
 
-## ð System Overview
+## Ã°ÂÂÂ System Overview
 
 The system uses a **two-step process**:
 
@@ -13,21 +13,21 @@ The system uses a **two-step process**:
 
 ```
 blog/
-âââ articles/
-â   âââ blog.csv                    # Main CSV file with all articles
-â   âââ drafts/                     # Markdown drafts directory
-â   â   âââ article-template.md     # Template for new articles
-â   â   âââ processed/              # Completed drafts (auto-created)
-â   â   âââ [new-article].md        # Your draft files
-â   âââ backups/                    # CSV backups (auto-created)
-âââ scripts/
-â   âââ convert-to-csv.py          # Conversion script
-â   âââ requirements.txt           # Python dependencies
-âââ ai-content-writer-prompt.md    # AI writer instructions
-âââ README.md                      # This file
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ articles/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ blog.csv                    # Main CSV file with all articles
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ drafts/                     # Markdown drafts directory
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ article-template.md     # Template for new articles
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ processed/              # Completed drafts (auto-created)
+Ã¢ÂÂ   Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ [new-article].md        # Your draft files
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ backups/                    # CSV backups (auto-created)
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ scripts/
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ convert-to-csv.py          # Conversion script
+Ã¢ÂÂ   Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ requirements.txt           # Python dependencies
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ ai-content-writer-prompt.md    # AI writer instructions
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ README.md                      # This file
 ```
 
-## ð Quick Start Guide
+## Ã°ÂÂÂ Quick Start Guide
 
 ### 1. Setup (One-time)
 
@@ -84,13 +84,13 @@ python convert-to-csv.py --all
 
 The script will:
 
-- â Validate your metadata
-- â Convert markdown to HTML
-- â Update the CSV file
-- â Create backups
-- â Move processed files to `processed/` folder
+- Ã¢ÂÂ Validate your metadata
+- Ã¢ÂÂ Convert markdown to HTML
+- Ã¢ÂÂ Update the CSV file
+- Ã¢ÂÂ Create backups
+- Ã¢ÂÂ Move processed files to `processed/` folder
 
-## ð Writing Guidelines
+## Ã°ÂÂÂ Writing Guidelines
 
 ### Required Frontmatter Fields
 
@@ -134,7 +134,7 @@ Choose your content format:
    - Use H2 for main sections, H3 for subsections
    - Include internal links to related articles
 
-## ð ï¸ Advanced Usage
+## Ã°ÂÂÂ Ã¯Â¸Â Advanced Usage
 
 ### Batch Processing
 
@@ -149,11 +149,11 @@ python convert-to-csv.py --all
 
 The script automatically validates:
 
-- â Required metadata fields
-- â Slug format (lowercase, hyphens only)
-- â Meta description length (warns if >160 chars)
-- â Date format conversion
-- â HTML escaping for CSV
+- Ã¢ÂÂ Required metadata fields
+- Ã¢ÂÂ Slug format (lowercase, hyphens only)
+- Ã¢ÂÂ Meta description length (warns if >160 chars)
+- Ã¢ÂÂ Date format conversion
+- Ã¢ÂÂ HTML escaping for CSV
 
 ### Backup System
 
@@ -174,7 +174,7 @@ Common errors and solutions:
 | `Invalid slug format`     | Use lowercase letters, numbers, hyphens only |
 | `File not found`          | Check file path and spelling                 |
 
-## ð CSV Structure
+## Ã°ÂÂÂ CSV Structure
 
 The final CSV contains these columns:
 
@@ -190,7 +190,7 @@ The final CSV contains these columns:
 | `Reviewer Name`     | frontmatter.reviewerName     | Reviewer identifier |
 | `Content`           | markdown content             | Full HTML content   |
 
-## ð Workflow Examples
+## Ã°ÂÂÂ Workflow Examples
 
 ### Example 1: New "Best Of" Article
 
@@ -204,7 +204,7 @@ The final CSV contains these columns:
 
    ```yaml
    slug: best-ai-chatbots-2025
-   title: "Best AI Chatbots in 2025 â Compare 8 Top Platforms"
+   title: "Best AI Chatbots in 2025 Ã¢ÂÂ Compare 8 Top Platforms"
    contentFormat: "Best Of"
    primaryKeyword: best AI chatbots
    ```
@@ -235,7 +235,7 @@ The final CSV contains these columns:
    ```
 3. **Review results** and check `processed/` folder
 
-## ð¯ Quality Checklist
+## Ã°ÂÂÂ¯ Quality Checklist
 
 Before converting to CSV, verify:
 
@@ -251,7 +251,7 @@ Before converting to CSV, verify:
 
 - [ ] Primary keyword in title, meta, first paragraph, H2
 - [ ] Meta description 140-160 characters
-- [ ] Proper header hierarchy (H2 â H3 â H4)
+- [ ] Proper header hierarchy (H2 Ã¢ÂÂ H3 Ã¢ÂÂ H4)
 - [ ] Internal links to related content
 - [ ] Alt text for images (max 4 words)
 
@@ -263,7 +263,7 @@ Before converting to CSV, verify:
 - [ ] Author/reviewer names hyphenated
 - [ ] Content follows markdown standards
 
-## ð¨ Troubleshooting
+## Ã°ÂÂÂ¨ Troubleshooting
 
 ### Common Issues
 
@@ -306,7 +306,7 @@ ls -la blog/articles/
 3. **Test with template** - copy `article-template.md` and modify
 4. **Review examples** in existing CSV entries
 
-## ð Tips for Success
+## Ã°ÂÂÂ Tips for Success
 
 1. **Start with template**: Always copy from `article-template.md`
 2. **Validate early**: Check frontmatter before writing content
