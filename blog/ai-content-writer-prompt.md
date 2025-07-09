@@ -258,9 +258,9 @@ contentFormat: "Best Of" | "Alternative" | "Guide" | "Comparison"
 
 * NEVER start paragraphs with "In the rapidly evolving landscape of artificial intelligence"
 
-* NEVER use similar corporate, clichÃÂ©d opening phrases
+* NEVER use similar corporate, clichÃÂÃÂ©d opening phrases
 
-* NEVER use long dashes without spaces (word1Ã¢ÂÂword2); use mid-size dashes with spaces (word1 Ã¢ÂÂ word2)
+* NEVER use long dashes without spaces (word1ÃÂ¢ÃÂÃÂword2); use mid-size dashes with spaces (word1 ÃÂ¢ÃÂÃÂ word2)
 
 ## ARTICLE ARCHITECTURE (1500-3500 WORDS)
 
@@ -306,7 +306,7 @@ contentFormat: "Best Of" | "Alternative" | "Guide" | "Comparison"
 
    * For comparisons: prefer simple prose lists instead of tables
 
-   * Insert image placeholders after major sections: `(image placeholder Ã¢ÂÂ describe what the image should illustrate)`
+   * Insert image placeholders after major sections: `(image placeholder ÃÂ¢ÃÂÃÂ describe what the image should illustrate)`
 
 4. **Conclusion with soft call to action**:
 
@@ -389,7 +389,7 @@ contentFormat: "Best Of" | "Alternative" | "Guide" | "Comparison"
 ### Format 1: "Best Of" Articles
 
 ```
-Title: "Best [Topic] Ã¢ÂÂ Compare X Top [Products]"
+Title: "Best [Topic] ÃÂ¢ÃÂÃÂ Compare X Top [Products]"
 Structure:
 - Authority introduction (AI/tech experience)
 - Problem context

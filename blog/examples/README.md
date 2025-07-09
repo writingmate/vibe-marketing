@@ -2,7 +2,7 @@
 
 This folder contains complete examples of high-performing Writingmate blog articles for reference when creating new content.
 
-## Ã°ÂÂÂ Article Examples
+## ÃÂ°ÃÂÃÂÃÂ Article Examples
 
 ### `ai-document-review-article.md`
 
@@ -18,7 +18,7 @@ This folder contains complete examples of high-performing Writingmate blog artic
 - **Word Count**: ~2,800 words
 - **Pattern**: Problem-solution approach with personal experience
 
-## Ã°ÂÂÂ¡ How to Use These Examples
+## ÃÂ°ÃÂÃÂÃÂ¡ How to Use These Examples
 
 1. **Study the structure** - Notice the authority introductions, section organization, and conclusion patterns
 2. **Adapt the patterns** - Use similar approaches for your topic and keywords
