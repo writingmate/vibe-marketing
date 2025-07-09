@@ -21,22 +21,22 @@ contentFormat: "Alternative"
 
 Before settling on any replacement, it helps to define what matters most for heavy chat-AI users. Through interviews with 18 power-users (developers, marketers, researchers) four decision pillars emerged:
 
-1. **Model Breadth & Switching Overhead** â How many LLM families are available natively and how easy is it to swap among them?
-2. **Total Cost of Ownership (TCO)** â Subscription + API spend + hidden friction (API-key management, rate-limit downtime).
-3. **Productivity Toolkit** â File upload, multi-model comparison, collaboration, mobile parity.
-4. **Governance & Reliability** â Uptime guarantees, data-privacy posture, SOC-2 or equivalent.
+1. **Model Breadth & Switching Overhead** Ã¢ÂÂ How many LLM families are available natively and how easy is it to swap among them?
+2. **Total Cost of Ownership (TCO)** Ã¢ÂÂ Subscription + API spend + hidden friction (API-key management, rate-limit downtime).
+3. **Productivity Toolkit** Ã¢ÂÂ File upload, multi-model comparison, collaboration, mobile parity.
+4. **Governance & Reliability** Ã¢ÂÂ Uptime guarantees, data-privacy posture, SOC-2 or equivalent.
 
 Below is a side-by-side snapshot of three leading Typingmind alternatives that readers in our panel shortlisted most often.
 
 | Capability / Cost       | **Typingmind (baseline)** | **Writingmate**               | **OpenRouter + Lite UI** |
 | ----------------------- | ------------------------- | ----------------------------- | ------------------------ |
-| Included AI models      | â35 pre-configured + BYO  | 200+ built-in                 | BYO (100+ endpoints)     |
+| Included AI models      | Ã¢ÂÂ35 pre-configured + BYO  | 200+ built-in                 | BYO (100+ endpoints)     |
 | API keys required       | Yes (mandatory)           | No (optional for BYO)         | Yes (mandatory)          |
-| Typical monthly spend\* | $39 licence + $50 API     | $14.99â29.99 flat             | $0 UI + $60 API          |
+| Typical monthly spend\* | $39 licence + $50 API     | $14.99Ã¢ÂÂ29.99 flat             | $0 UI + $60 API          |
 | File / doc chat         | Beta (PDF only)           | Full (PDF, DOCX, CSV, images) | None                     |
 | Mobile experience       | PWA, mixed reviews        | Native PWA + responsive       | Browser only             |
 | Uptime SLA              | n/a                       | 99.9 % SLA                    | Depends on provider      |
-| Security attestation    | â                         | SOC-2 (claimed)               | â                        |
+| Security attestation    | Ã¢ÂÂ                         | SOC-2 (claimed)               | Ã¢ÂÂ                        |
 
 \*API assumptions: 150 k GPT-4o-mini tokens/day + 10 k Claude tokens.
 
@@ -50,7 +50,7 @@ Below is a side-by-side snapshot of three leading Typingmind alternatives that r
 
 ### Verdict
 
-For solo builders who enjoy tweaking model endpoints and don't mind rate-limit babysitting, **Typingmind** remains serviceableâespecially the $69 lifetime licence. If predictability and file-centric workflows matter more than tinkering, a bundled option like **Writingmate** reduces cognitive overhead at a lower median cost. Finally, tech-savvy early adopters chasing niche models may prefer the raw flexibility of **OpenRouter** plus a minimal chat front-end.
+For solo builders who enjoy tweaking model endpoints and don't mind rate-limit babysitting, **Typingmind** remains serviceableÃ¢ÂÂespecially the $69 lifetime licence. If predictability and file-centric workflows matter more than tinkering, a bundled option like **Writingmate** reduces cognitive overhead at a lower median cost. Finally, tech-savvy early adopters chasing niche models may prefer the raw flexibility of **OpenRouter** plus a minimal chat front-end.
 
 Whichever route you choose, evaluate against the four decision pillars above, run a two-week cost log, and verify security needs before committing.
 
@@ -59,15 +59,15 @@ _Sources: Typingmind pricing page, Typingmind token-cost calculator, Writingmate
 | Cost component                               | Typical price                                                                                          |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | Typingmind Team (Cloud)                      | **$39 / month**                                                                                        |
-| OpenAI API (â150 k tokens / day GPT-4o mini) | **â $36 / month** [[calculator]](https://custom.typingmind.com/tools/estimate-llm-usage-costs/o1-mini) |
+| OpenAI API (Ã¢ÂÂ150 k tokens / day GPT-4o mini) | **Ã¢ÂÂ $36 / month** [[calculator]](https://custom.typingmind.com/tools/estimate-llm-usage-costs/o1-mini) |
 | Anthropic Claude API (light usage)           | **$15-40 / month**                                                                                     |
-| **Total**                                    | **â $90 / month**                                                                                      |
+| **Total**                                    | **Ã¢ÂÂ $90 / month**                                                                                      |
 
 <img src="https://api.screenshotone.com/take?access_key=2EAuYfsdtrwyzA&url=https%3A%2F%2Fcustom.typingmind.com%2Fpricing&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80" alt="Typingmind pricing" />
 
 ### 2. Transparent & Cheaper Pricing
 
-Writingmate keeps pricing simple: **Pro $14.99 / mo** and **Ultimate $29.99 / mo** (Ultimate is often promoted at ~$24.99 during sales) â API usage is already included.
+Writingmate keeps pricing simple: **Pro $14.99 / mo** and **Ultimate $29.99 / mo** (Ultimate is often promoted at ~$24.99 during sales) Ã¢ÂÂ API usage is already included.
 
  <img src="https://api.screenshotone.com/take?access_key=2EAuYfsdtrwyzA&url=https%3A%2F%2Fwritingmate.ai&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80" alt="Writingmate pricing" />
 
